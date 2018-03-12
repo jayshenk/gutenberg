@@ -114,12 +114,12 @@
 	}
 
 	// focused block-style
-	&.is-selected .editor-block-list__block-edit:before {
+	&.is-selected > .editor-block-list__block-edit:before {
 		outline: 1px solid $light-gray-500;
 	}
 
 	// give reusable blocks a dashed outline
-	&.is-reusable.is-selected .editor-block-list__block-edit:before {
+	&.is-reusable.is-selected > .editor-block-list__block-edit:before {
 		outline: 1px dashed $light-gray-500;
 	}
 
